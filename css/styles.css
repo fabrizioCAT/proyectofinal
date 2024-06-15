@@ -1,0 +1,357 @@
+@charset "UTF-8";
+/*reset*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* estilos generales*/
+body {
+  background-color: #E6E6DD;
+  color: white;
+}
+
+/* estilos footer*/
+.footer {
+  background-color: #212121;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footerContenido {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer h4 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* Lo hacemos responsive:  */
+/*Vista tablet*/
+/*768px hasta 1023px*/
+@media (max-width: 1023px) {
+  /*Header*/
+  .encabezado {
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+/*Ajustes específicos para la vista móvil*/
+/*0 hasta 768px*/
+@media (max-width: 768px) {
+  /*Destinos */
+  .contenedorElectrodomesticos {
+    grid-template-columns: 1fr;
+  }
+}
+.white-bg {
+  background-color: #2B2B2B;
+}
+
+/* estilos generales*/
+body {
+  background-color: #E6E6DD;
+  color: white;
+}
+
+/* estilos del haeder index*/
+.encabezado {
+  background-color: #2B2B2B;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+}
+.encabezado h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  font-size: 2.5rem;
+}
+.encabezado h1 span {
+  color: deepskyblue;
+}
+.encabezado li {
+  list-style-type: none;
+  display: inline-block;
+}
+.encabezado nav ul li a {
+  text-decoration: none;
+  margin: 10px;
+  color: whitesmoke;
+  font-size: 1.5rem;
+}
+
+/* Electrodomesticos */
+.electrodomesticos {
+  text-align: center;
+  margin: 10vh;
+  border-bottom: 1px solid black;
+}
+.electrodomesticos img {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  margin: 0 0;
+  gap: 30px;
+  align-items: center;
+}
+.electrodomesticos h2 {
+  color: black;
+  text-transform: uppercase;
+  font-size: 1.7rem;
+}
+.electrodomesticos h3 {
+  color: black;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+}
+
+/*Encabezado herramientas*/
+.encabezadoherramientas {
+  background-color: #2B2B2B;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+}
+.encabezadoherramientas h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  font-size: 2.5rem;
+}
+.encabezadoherramientas h1 span {
+  color: deepskyblue;
+}
+.encabezadoherramientas li {
+  list-style-type: none;
+  display: inline-block;
+}
+.encabezadoherramientas nav ul li a {
+  text-decoration: none;
+  margin: 10px;
+  color: whitesmoke;
+  font-size: 1.5rem;
+}
+
+/*Herramientras principal*/
+main .herramientasprincipal {
+  text-align: center;
+}
+
+.herramientasprincipal h2 {
+  color: black;
+}
+
+/*Estilos herramientas*/
+section {
+  height: auto;
+  display: flex;
+  margin: 0px 60px;
+  padding: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+section div {
+  margin: 10px;
+}
+section div img {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+section div p {
+  margin: 10px 0;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+/*Juguetes herramientas*/
+.encabezadojuguetes {
+  background-color: #2B2B2B;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+}
+.encabezadojuguetes h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  font-size: 2.5rem;
+}
+.encabezadojuguetes h1 span {
+  color: deepskyblue;
+}
+.encabezadojuguetes li {
+  list-style-type: none;
+  display: inline-block;
+}
+.encabezadojuguetes nav ul li a {
+  text-decoration: none;
+  margin: 10px;
+  color: whitesmoke;
+  font-size: 1.5rem;
+}
+
+/*Juguetes principal*/
+main .juguetesprincipal {
+  text-align: center;
+}
+
+.juguetesprincipal h2 {
+  color: black;
+}
+
+.encabezadolocales {
+  background-color: #2B2B2B;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+}
+.encabezadolocales h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  font-size: 2.5rem;
+}
+.encabezadolocales h1 span {
+  color: deepskyblue;
+}
+.encabezadolocales li {
+  list-style-type: none;
+  display: inline-block;
+}
+.encabezadolocales nav ul li a {
+  text-decoration: none;
+  margin: 10px;
+  color: whitesmoke;
+  font-size: 1.5rem;
+}
+
+/*locales principal*/
+main .localesprincipal {
+  text-align: center;
+}
+
+.localesprincipal h2 {
+  color: black;
+}
+
+/*Encabezado Ofertas*/
+.encabezadoofertas {
+  background-color: #2B2B2B;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+}
+.encabezadoofertas h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  font-size: 2.5rem;
+}
+.encabezadoofertas h1 span {
+  color: deepskyblue;
+}
+.encabezadoofertas li {
+  list-style-type: none;
+  display: inline-block;
+}
+.encabezadoofertas nav ul li a {
+  text-decoration: none;
+  margin: 10px;
+  color: whitesmoke;
+  font-size: 1.5rem;
+}
+
+/*Ofertas principal*/
+main .ofertasprincipal {
+  text-align: center;
+}
+
+.ofertasprincipal h2 {
+  color: black;
+}
+
+/*Encabezado hogar*/
+.encabezadohogar {
+  background-color: #2B2B2B;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+}
+.encabezadohogar h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  font-size: 2.5rem;
+}
+.encabezadohogar h1 span {
+  color: deepskyblue;
+}
+.encabezadohogar li {
+  list-style-type: none;
+  display: inline-block;
+}
+.encabezadohogar nav ul li a {
+  text-decoration: none;
+  margin: 10px;
+  color: whitesmoke;
+  font-size: 1.5rem;
+}
+
+/*Hogar principal*/
+main .hogarprincipal {
+  text-align: center;
+}
+
+.hogarprincipal h2 {
+  color: black;
+}
+
+/* Estilos main*/
+.contenedorElectrodomesticos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+.principal img {
+  max-width: 100%;
+}
+.principal p {
+  margin: 10px 0;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=styles.css.map */

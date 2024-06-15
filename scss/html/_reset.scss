@@ -1,0 +1,17 @@
+/*reset*/
+@import "../variables";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* estilos generales*/
+
+body{
+    background-color: $color-primario;
+    color: white;
+    
+}

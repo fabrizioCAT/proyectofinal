@@ -1,0 +1,32 @@
+.contenedorElectrodomesticos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.electrodomestico {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+.principal img {
+  max-width: 100%;
+}
+.principal p {
+  margin: 10px 0;
+  color: black;
+}
+
+/*# sourceMappingURL=mainherramientas.css.map */
